@@ -1,0 +1,61 @@
+.pros  li {
+    position: relative;
+    padding: 0 0 10px 20px;
+}
+ .pros li div {
+    padding-top: 5px;
+}.pros li span {
+    font-weight: bold;
+}
+.pros li::before {
+    content: "";
+    z-index: 12;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color:  #56B70E;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.cons  li {
+    position: relative;
+    padding: 0 0 10px 20px;
+}
+ .cons li div {
+    padding-top: 5px;
+}
+.cons li span {
+    font-weight: bold;
+}
+.cons li::before {
+    content: "";
+    z-index: 12;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #ff883a;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+li {
+    float: left;
+}
+.icons-listing.w-half {
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons-listing li {
+    flex: 1 1 50%;
+}
+@media (max-width: 675px) {
+    .icons-listing.w-half li {
+        flex: 1 1 100%;
+   }
+}

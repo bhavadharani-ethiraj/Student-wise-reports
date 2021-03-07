@@ -1,0 +1,10 @@
+table {
+    border: 10px solid #c5dae8;
+}
+table th {
+    color: #ff723d;
+    font-weight: normal;
+}
+td ,th{
+    border: 1px solid rgba(224, 224, 224,0.4);
+}

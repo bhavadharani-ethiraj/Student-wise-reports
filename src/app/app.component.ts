@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test-app';
-}
+  toggleAccordian(event:any) {
+        var element = event.target;
+        element.classList.toggle("active-accordian");
+       
+        var panel = element.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+       
+        }
+      }
+

@@ -1,0 +1,39 @@
+th{
+    background-color: #E2E2E2;
+    text-align: center;
+    font-weight: normal;
+}
+.poor{
+    color: #D7373F;
+}
+.fair{
+    color: #0086FF;
+}
+.average{
+    color: #0086FF;
+}
+.good{
+    color: #0086FF;
+}
+.excellent{
+    color: #56B70E;
+}
+table td {
+    background-color: #F7F7F7;
+  border: 10px solid white;
+  border-radius: 25px;
+  color: black;
+  font-weight: 500;
+}
+table tr {
+  border: 10px solid white;
+
+}
+table{
+  border: 10px solid rgb(0, 0, 0);
+
+}
+thead th{
+    border-bottom-width: 20px;
+    border-block-color: white;
+}
